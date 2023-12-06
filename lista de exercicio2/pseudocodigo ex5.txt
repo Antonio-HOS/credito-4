@@ -1,0 +1,115 @@
+pseudocódigo palavras-cruzadas
+
+função errou(){
+mostrar-> não foi dessa vez, tente novamente;
+
+}
+
+função acertou(){
+mostrar->boa você acertou;
+
+}
+
+função mostrar(){
+mostrar->(matriz quadrada)
+
+mostrar(charadas para resolver cada caçã palavra);
+
+}
+
+principal(){
+
+/*palavras:
+7 basicamente
+6 universidade
+5 uesc
+4 programacao
+3 allwin
+2 atividade
+1 poer
+
+*/
+
+criar matriz quadrada 13*13;
+preencher matriz com ascci 176(caracter transparente);
+preencher respectivas posições da matriz com o número de respectiva palavra;
+
+mostrar();
+
+enquanto(não acertar todas as palavras){
+
+mostrar->nescolha um para fazer?[1-7];
+
+pegar numero do usuario(variavel N);
+
+se n for igual a 1 i ainda não foi respondido{
+	comparar resposta com palavra 1
+	se resposta estiver correta{
+		preencher matriz com letras da palavra equivalente
+}	se a resposta estiver errada{
+	mostrar-> voce errou, tente novamente;
+}
+}
+
+se n for igual a 2 i ainda não foi respondido{
+	comparar resposta com palavra 2
+	se resposta estiver correta{
+		preencher matriz com letras da palavra equivalente
+}	se a resposta estiver errada{
+	mostrar-> voce errou, tente novamente;
+}
+}
+
+se n for igual a 3 i ainda não foi respondido{
+	comparar resposta com palavra 3
+	se resposta estiver correta{
+		preencher matriz com letras da palavra equivalente
+}	se a resposta estiver errada{
+	mostrar-> voce errou, tente novamente;
+}
+}
+
+se n for igual a 4 i ainda não foi respondido{
+	comparar resposta com palavra 4
+	se resposta estiver correta{
+		preencher matriz com letras da palavra equivalente
+}	se a resposta estiver errada{
+	mostrar-> voce errou, tente novamente;
+}
+}
+
+se n for igual a 5 i ainda não foi respondido{
+	comparar resposta com palavra 5
+	se resposta estiver correta{
+		preencher matriz com letras da palavra equivalente
+}	se a resposta estiver errada{
+	mostrar-> voce errou, tente novamente;
+}
+}
+
+se n for igual a 6 i ainda não foi respondido{
+	comparar resposta com palavra 6
+	se resposta estiver correta{
+		preencher matriz com letras da palavra equivalente
+}	se a resposta estiver errada{
+	mostrar-> voce errou, tente novamente;
+}
+}
+
+se n for igual a 7 i ainda não foi respondido{
+	comparar resposta com palavra 7
+	se resposta estiver correta{
+		preencher matriz com letras da palavra equivalente
+}	se a resposta estiver errada{
+	mostrar-> voce errou, tente novamente;
+}
+}
+
+}
+
+mostrar -> parabens voce concluiu as palavras cruzadas;
+
+mostrar();
+
+}
+

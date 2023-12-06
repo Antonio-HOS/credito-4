@@ -1,0 +1,13 @@
+algoritmo CALCULADORA DE SALÁRIO LÍQUIDO
+
+-começar;
+-exibir(“qual é seu salário bruto”);
+-receber salário bruto;
+-exibir(“qual é o valor do seu vale alimentação”);
+-receber vale alimentação;
+-salário é igual a salário bruto menos o salário bruto * 0,389. caso o resultado seja menor que 1320,00 o valor para a ser 1320,00;
+exibir (“”seu salário é de R$(resultado + vale AL);
+-você paga R$(salário*0.275) de IPR.
+-você paga R$(salário*0.014) de INSS.
+-você paga R$(salário*0.08) de FGTS.
+-você paga R$(salário*0.02) de RAT.”)

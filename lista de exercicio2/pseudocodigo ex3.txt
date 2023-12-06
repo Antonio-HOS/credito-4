@@ -1,0 +1,47 @@
+pseudocódigo palavras-cruzadas
+
+função maior e menor(){
+mostrar-> (as trâs primeiras posicoes de cada linha);
+mostrar-> (as trâs ultimas posicoes de cada linha);
+}
+
+função media mediana e desvio padrao(){
+mostrar -> media:(a soma dos elementos de cada linha e dividi-los pela quantidade de elementos da respectiva linha);
+mostrar -> mediana:(o número que oculpa a posição do meio);
+mostrar-> desvio padrao:(a raiz quadrada da divizao da soma do quadrado da diferença entre a média e cada elemente pela quantidade de elemento de cada linha)
+
+}
+
+função informacoes(){
+mostrar->(a quntidade que cada numero de cada linha se repete)
+
+}
+
+função novoarray(){
+criar array com numeros de casas igual ao resultado da multiplicacao das dimensoes da matriz principal;
+
+criar um novo array com base no anterior mas sem repetir números;
+mostrar->(array criado);
+}
+
+função somatorio de linhas(){
+criar um array unidimensional com os valores de cada elemento associado com a soma dde cada linha do array principal;
+mostrar ->(novo array)
+}
+
+
+principal(){
+
+
+
+criar matriz quadrada n*n;
+preencher matriz com numeros inteiros aleatorios;
+ordenar cada linha com o algoritimo buble;
+mostrar->(array); 
+maior e menor();
+media mediana e desvio padrao();
+informacoes()
+novoarray();
+somatorio de linhas()
+}
+

@@ -1,0 +1,14 @@
+algoritmo TORRE DE HANÓI(3 peças)
+
+-começar
+-mova peça a para b
+-mova peça a para c
+-mova peça b para c
+-mova peça a para b
+-mova peça c para a
+-mova peça c para b
+-mova peça a para b
+-fim
+
+*algoritmo universal*
+mova a peça de tamanho um para direita(caso a menor peça já esteja na última posição, mova para a primeira posição) e depois a mova a menor peça para o espaço disponível, repita até finalizar
